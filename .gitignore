@@ -12,3 +12,4 @@ test-server.mjs
 *.db
 *.db-wal
 *.db-shm
+docs/*txt
