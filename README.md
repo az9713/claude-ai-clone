@@ -2,7 +2,7 @@
 
 A full-featured clone of Anthropic's [claude.ai](https://claude.ai) chat interface, built from the [app_spec.txt](https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/prompts/app_spec.txt) specification. Supports multiple AI providers (Gemini, OpenAI, Anthropic). React/Vite + Node.js/Express + SQLite.
 
-https://github.com/user-attachments/assets/PLACEHOLDER-VIDEO-ID
+https://github.com/user-attachments/assets/86cebdeb-4443-494d-98a8-8c1a5171ed81
 
 ## Features
 
