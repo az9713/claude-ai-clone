@@ -1,0 +1,14 @@
+node_modules/
+dist/
+server/data/
+server/node_modules/
+.env
+.ignore/
+.claude/
+excalidraw-diagram-skill/
+cc*.txt
+test-image.mjs
+test-server.mjs
+*.db
+*.db-wal
+*.db-shm
