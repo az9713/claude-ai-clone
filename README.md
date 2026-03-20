@@ -129,7 +129,7 @@ Open **http://localhost:5173** in your browser.
 
 ## How It Was Built
 
-This project was built using Claude Code's 1M token context window (Opus 4.6) with a **wave-based parallel agent approach**:
+This project was built from the [app_spec.txt](https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/prompts/app_spec.txt) specification using Claude Code's 1M token context window (Opus 4.6) with a **wave-based parallel agent approach**:
 
 1. **Wave 0** — Foundation + core chat (built directly)
 2. **Waves 1, 2, 3** — Sidebar, artifacts, and settings (3 agents in parallel)
@@ -139,13 +139,13 @@ Three agents ran simultaneously, each owning a distinct area of the codebase (le
 
 ## Acknowledgements
 
-This project was inspired by Leon van Zyl's video **"5x More Context in Claude Code - Here's How to Actually Use It"**:
+**App Specification:** [app_spec.txt](https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/prompts/app_spec.txt) from Anthropic's claude-quickstarts repository.
+
+**Inspiration:** Leon van Zyl's video **"5x More Context in Claude Code - Here's How to Actually Use It"**:
 
 [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=lt-wKINAMuw)
 
 The video demonstrates how to leverage Claude Code's extended context window to build large applications using parallel agent teams — the exact approach used to build this clone.
-
-The original app specification comes from Anthropic's [claude-quickstarts](https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/prompts/app_spec.txt) repository.
 
 ## License
 
